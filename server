@@ -1,0 +1,8 @@
+#!/bin/bash +vx
+LIB_PATH=$"/home/phao3/protobuf/protobuf-3.4.0/java/core/target/protobuf.jar"
+
+#name
+#port
+#nodes file
+#hinted handoff or read repair
+java -cp .:$LIB_PATH Init $1 $2 $3 $4
